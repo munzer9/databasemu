@@ -1,0 +1,265 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  height: 100%;
+  width: 100%;
+  background-size: auto 100%;
+  background-size: cover;
+    background-position: top;
+    position: relative;
+  /*position: fixed;
+  /*background-color: #566c81;
+  display: flex;
+  /*background-image:  -webkit-linear-gradient(65deg, #9ebeca 50%, #E4E9FD 50%);*/
+  background-image: linear-gradient(to right bottom, rgb(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)),  url(pohto/book1.jpg);
+}
+
+.form-signin {
+  
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: 2% auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+  background-color: lightblue,
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgb(14, 15, 15),
+}
+.p1{
+  font-weight: 200;
+    display: inline-block;
+    background-image: linear-gradient(to right, #000000, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+  font-size:  500%; 
+  font-family: "Tangerine" ,sans-serif;
+  }
+
+  .p2{
+    font-weight: 400;
+      display: inline-block;
+      background-image: linear-gradient( #948e8e, #000000);
+      -webkit-background-clip: text;
+      color: transparent;
+    font-size:  350%; 
+    font-family: Arial, Helvetica, sans-serif;
+    }
+/*.button1 {
+  display: inline-block;
+  padding: 30px 40px 30px 40px ;
+  margin-left: -5%;
+  margin-top: 30%;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-image:   linear-gradient(to bottom right, #E4E9FD ,  #000000 );
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button2{
+  display: inline-block;
+  padding: 30px 15px 30px 15px ;
+  margin-left:18% ;
+  margin-top: 30%;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-image:   linear-gradient(to bottom right, #E4E9FD ,  #000000 );
+  
+  
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}*/
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10% 20%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.animated-text {
+  font-family: "Tangerine";
+  overflow: hidden;
+  
+  word-wrap: break-word;
+  white-space: nowrap;
+  
+  font-weight: 600;
+    display: inline-block;
+    background-image: linear-gradient(to right, #fffefe, #e8ecfc);
+    -webkit-background-clip: text;
+    color: transparent;
+  font-size:  500%; 
+ }
+ 
+ @keyframes typing {
+   from { 
+     width: 0;
+   }
+ 
+   to { 
+     width: 48ch;
+   }
+ }
+
+
+
+
+
+
+ form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 30px 0px 0px 30px;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0px 15px 15px 0px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+select {
+	display: block;
+	font-size: 1.5em;
+	padding: .6em 1.4em .5em .8em;
+	width: 20em;
+	max-width: 100%;
+	/* useful when width is set to anything other than 100% */
+	
+	box-sizing: border-box;
+	margin: 0;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+	border-radius: .5em;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	/* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+        for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+    */
+	
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'), linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+	background-repeat: no-repeat, repeat;
+	/* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+	
+	background-position: right .7em top 50%, 0 0;
+	/* icon size, then gradient */
+	
+	background-size: .65em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+
+select::-ms-expand {
+	display: none;
+}
+/* Hover style */
+
+select:hover {
+	border-color: #888;
+}
+
+select > *:hover {
+	background-color: #dfac20;
+}
+/* Focus style */
+
+select:focus {
+	border-color: #aaa;
+	/* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+	
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+/* Set options to normal weight */
+
+select option {
+	font-weight: normal;
+}
+
+output {
+	font-family: courier;
+	font-size: 2em;
+	color: #c32e04;
+}

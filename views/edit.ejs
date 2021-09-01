@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  
+  <form action="/update" method="post">
+    <input type="hidden" value="<%= user.id %>" name="id">
+
+
+    <div class="form-group">
+        <label for="name">auther:</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter Name" value="<%= user.auther %>"  name="auther" required>
+      </div>
+      <div class="form-group">
+        <label for="email">description:</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter email"value="<%= user.description %>" name="description" required>
+      </div>
+      <div class="form-group">
+        <label for="email">subject:</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter email" value="<%= user.subject %>" name="subject" required>
+      </div>
+      <div class="form-group">
+      <label for="email">solution:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter email"value="<%= user.solution %>"  name="solution" required>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
